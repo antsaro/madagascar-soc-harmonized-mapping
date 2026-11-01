@@ -2,7 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
-[![tests](https://github.com/<your-user>/madagascar-soc-harmonized-mapping/actions/workflows/tests.yml/badge.svg)](https://github.com/<your-user>/madagascar-soc-harmonized-mapping/actions/workflows/tests.yml)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23857981.svg)](https://doi.org/10.5281/zenodo.23857981)
 
 Code for mapping soil organic carbon (SOC) stocks in Madagascar for three depth
