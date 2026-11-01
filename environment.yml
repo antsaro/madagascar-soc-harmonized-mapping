@@ -1,0 +1,27 @@
+name: soc-harmonized
+channels:
+  - rapidsai
+  - conda-forge
+  - nvidia
+dependencies:
+  - python=3.11
+  - cuml>=24.06
+  - cupy
+  - cuda-version=12
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - xgboost
+  - optuna
+  - shap
+  - statsmodels
+  - matplotlib
+  - rasterio
+  - pyproj
+  - shapely
+  - joblib
+  - openpyxl
+  - pip
+  - pip:
+      - quantile-forest>=1.3

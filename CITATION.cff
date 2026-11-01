@@ -1,0 +1,75 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Depth-harmonised soil organic carbon mapping for Madagascar"
+abstract: >-
+  Python code to map soil organic carbon stocks in Madagascar for 0-30, 30-100 and
+  0-100 cm. Profiles sampled only to 30 cm are completed with the Jobbagy and
+  Jackson (2000) exponential depth model calibrated on profiles measured to 1 m.
+  Random Forest, XGBoost and quantile regression forest models are tuned and
+  evaluated with random and spatial block nested cross-validation, interpreted
+  with SHAP and partial dependence, and used to produce national maps with
+  bootstrap uncertainty and QRF prediction-interval rasters.
+type: software
+authors:
+  - family-names: Randrianantenaina
+    given-names: Antsa Sarobidy
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: Ramifehiarivo
+    given-names: Nandrianina
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+version: 1.1.0
+date-released: "2026-11-01"
+license: MIT
+repository-code: "https://github.com/<your-user>/madagascar-soc-harmonized-mapping"
+# doi: 10.5281/zenodo.XXXXXXX
+keywords:
+  - soil organic carbon
+  - digital soil mapping
+  - Madagascar
+  - depth harmonisation
+  - Jobbagy and Jackson
+  - random forest
+  - XGBoost
+  - spatial cross-validation
+  - SHAP
+  - quantile regression forest
+  - prediction intervals
+  - GPU
+references:
+  - type: article
+    title: "The vertical distribution of soil organic carbon and its relation to climate and vegetation"
+    authors:
+      - family-names: Jobbágy
+        given-names: Esteban G.
+      - family-names: Jackson
+        given-names: Robert B.
+    journal: "Ecological Applications"
+    volume: 10
+    issue: 2
+    start: 423
+    end: 436
+    year: 2000
+    doi: "10.1890/1051-0761(2000)010[0423:TVDOSO]2.0.CO;2"
+  - type: article
+    title: "Vertical root distributions of northern tree species in relation to successional status"
+    authors:
+      - family-names: Gale
+        given-names: M. R.
+      - family-names: Grigal
+        given-names: D. F.
+    journal: "Canadian Journal of Forest Research"
+    volume: 17
+    start: 829
+    end: 834
+    year: 1987
+    doi: "10.1139/x87-131"
+  - type: article
+    title: "Quantile regression forests"
+    authors:
+      - family-names: Meinshausen
+        given-names: Nicolai
+    journal: "Journal of Machine Learning Research"
+    volume: 7
+    start: 983
+    end: 999
+    year: 2006

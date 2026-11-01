@@ -1,0 +1,6 @@
+# GPU extras (CUDA 12). On Kaggle's GPU image these are already installed.
+# cuML is distributed by NVIDIA RAPIDS; see https://docs.rapids.ai/install
+-r requirements.txt
+--extra-index-url=https://pypi.nvidia.com
+cuml-cu12>=24.06
+cupy-cuda12x>=13.0
